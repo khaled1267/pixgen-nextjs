@@ -2,6 +2,8 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Nevber";
 
+import Footer from "@/components/Footer";
+
 const outfit = Outfit({
   variable: "--font-outfit",
   subsets: ["latin"],
@@ -22,7 +24,9 @@ export default function RootLayout({ children }) {
     >
       <body className="min-h-full flex flex-col">
         <Navbar />
-        <main className="flex-1">{children}</main>
+        <main className="w-11/12 mx-auto">{children}</main>
+        
+        <Footer />
       </body>
     </html>
   );
