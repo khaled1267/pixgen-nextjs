@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Photocard = ({ photo }) => {
@@ -65,9 +66,11 @@ const Photocard = ({ photo }) => {
         </div>
 
         {/* Action Button -mt-auto ব্যবহার করা হয়েছে যাতে বাটন সবসময় নিচে থাকে */}
-        <button className="w-full mt-auto py-3 text-lg font-medium text-gray-800 border-2 border-gray-100 rounded-full hover:bg-gray-50 transition-colors duration-200">
+        <Link href={`/all-photo/${photo.id}`} className="mt-auto">
+          <button className="w-full mt-auto py-3 text-lg font-medium text-gray-800 border-2 border-gray-100 rounded-full hover:bg-gray-50 transition-colors duration-200">
           View
         </button>
+        </Link>
       </div>
     </div>
   );
