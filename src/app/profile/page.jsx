@@ -6,6 +6,7 @@ import { UpdateUserModal, WithForm } from "@/components/model";
 // আইকনের জন্য lucide-react ব্যবহার করা হয়েছে
 
 const ProfileCard = () => {
+  
   const { data: session, isPending } = authClient.useSession();
   const user = session?.user;
 
@@ -16,7 +17,7 @@ const ProfileCard = () => {
         Loading...
       </div>
     );
-
+ 
   return (
     <div className="flex items-center justify-center min-h-screen bg-gray-50 p-4 ">
       {/* মেইন কার্ড কন্টেইনার */}
@@ -30,7 +31,7 @@ const ProfileCard = () => {
             className="text-3xl" // নাম (Fallback) এর সাইজ বড় করার জন্য
           >
             <AvatarImage
-              src={user?.image || "/default-avatar.png"}
+              src={user?.image}
               alt={user?.name || "User"}
               className="w-full h-full object-cover" // ইমেজকে পুরোটা জুড়ে রাখার জন্য
               referrerPolicy="no-referrer"
@@ -44,16 +45,17 @@ const ProfileCard = () => {
         {/* নাম এবং ইমেল */}
         <div className="space-y-1 mb-10">
           <h2 className="text-3xl font-bold text-black tracking-tight">
-            {user?.name || "Khaled Khan"}
+            {user?.name }
           </h2>
           <p className="text-gray-500 text-xl font-normal">
-            {user?.email || "khaledkhan1267@gmail.com"}
+            {user?.email }
           </p>
         </div>
 
         {/* আপডেট প্রোফাইল বাটন */}
        <UpdateUserModal />
       </div>
+      
     </div>
   );
 };
