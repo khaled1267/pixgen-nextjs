@@ -14,13 +14,15 @@
 
 ## 📌 Project Overview
 
-**PixGen** হলো একটি আধুনিক এবং শক্তিশালী এআই ইমেজ জেনারেশন প্ল্যাটফর্ম যা Next.js দিয়ে তৈরি করা হয়েছে। এটি ব্যবহারকারীদের টেক্সট প্রম্পট থেকে উচ্চমানের ছবি তৈরি করতে সাহায্য করে। প্রজেক্টটিতে ইউজার এক্সপেরিয়েন্সের ওপর বিশেষ গুরুত্ব দেওয়া হয়েছে, যাতে যে কেউ সহজেই এআই-এর শক্তি ব্যবহার করে সৃজনশীল কাজ করতে পারে।
+**PixGen**is a cutting-edge AI image generation platform powered by Next.js. Designed to seamlessly convert text prompts into high-quality visual art, the platform prioritizes an intuitive user experience—making the power of creative AI accessible to everyone.
 
 ---
 
+Screenshort :- https://i.ibb.co.com/zHmcngv3/Screenshot-2026-05-16-185020.png
+
 # 🚀 Live Links
 
-🌐 **Live Demo:** [আপনার লাইভ সাইট লিংক এখানে দিন]
+🌐 **Live Demo:**(https://pixgen-khaled-one.vercel.app/)
 
 💻 **GitHub Repository:** [https://github.com/khaled1267/pixgen-nextjs](https://github.com/khaled1267/pixgen-nextjs)
 
@@ -47,12 +49,17 @@
 
 # ✨ Main Features
 
-- ✅ **AI Image Generation:** টেক্সট প্রম্পট থেকে তৎক্ষণাৎ ছবি তৈরির সুবিধা।
-- ✅ **User Authentication:** নিরাপদ লগইন এবং সাইন-আপ সিস্টেম।
-- ✅ **Personal Dashboard:** ব্যবহারকারীর তৈরি করা ছবির গ্যালারি।
-- ✅ **Community Showcase:** অন্যান্য ব্যবহারকারীদের তৈরি করা ডিজাইন দেখার সুযোগ।
-- ✅ **Responsive Design:** ডেস্কটপ থেকে মোবাইল—সব ডিভাইসে পারফেক্ট ভিউ।
-- ✅ **Credit System:** জেনারেশনের জন্য ক্রেডিট বা কয়েন সিস্টেম (যদি থাকে)।
+✅ AI Image Generation: Instantly generate high-quality images from text prompts.
+
+✅ User Authentication: Secure login and sign-up system for user accounts.
+
+✅ Personal Dashboard: A dedicated gallery to manage and view your generated images.
+
+✅ Community Showcase: Explore and get inspired by designs created by other users.
+
+✅ Responsive Design: Flawlessly optimized for a perfect view on all devices, from desktop to mobile.
+
+✅ Credit System: A built-in credit or coin system to manage image generation limits.
 
 ---
 
